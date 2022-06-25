@@ -6,7 +6,7 @@ import { Video } from "../components/Video";
 
 
 export function Event(){
-    const { slug } = useParams<{ slug: string}>();
+    const { slug } = useParams<{ slug: string }>();
     return(
         <div className="flex flex-col min-h-screen">
             <Header />
