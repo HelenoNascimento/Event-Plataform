@@ -48,7 +48,7 @@ if(!data || !data.lesson){
                            <div className="flex items-center gap-4 mt-6">
                            <img 
                            className="h-16 w-16 rounded-full border-2 border-blue-500"
-                           src={data.lesson.teacher.avatarUrl}
+                          // src={data.lesson.teacher.avatarUrl}
                            alt="" />
                            <div className="leading-relaxed">
                                <strong className="font-bold text-2xl block">{data.lesson.teacher.name} </strong>
