@@ -1,4 +1,4 @@
-import { gql, useQuery } from "@apollo/client";
+
 import { useGetLessonsQuery } from "../graphql/generated";
 import { Lesson } from "./Lesson";
 
